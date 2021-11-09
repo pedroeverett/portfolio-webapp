@@ -78,4 +78,6 @@ typings/
 #Ds Store
 .ds_store
 
+.vscode
+
 package-lock.json
