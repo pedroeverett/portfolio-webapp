@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+// need to look at this if I am using the flexible design
+// #app-root {
+//   width: 100vw;
+//   height: 100vh;
+//   display: flex;
+//   flex-direction: row;
+
+//   justify-content: center;
+//   align-items: center;
+// }
+
+.portfolio-page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .portfolio-page-body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .hello-top {
+      flex: 1 1 50%;
+      flex-basis: content;
+      text-align: center;
+      font-size: 100px;
+      font-family: sans-serif;
+    }
+
+    .hello-bottom {
+      flex: 1 1 50%;
+      flex-basis: content;
+      text-align: center;
+      font-size: 100px;
+      font-family: sans-serif;
+    }
+  }
+}
+
+.portfolio-header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  background-size: cover;
+  color: white;
+}
+
+.portfolio-about {
+  height: 100vh;
+  display: flex;
+}
+
+.portfolio-about-title {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.portfolio-about-pages {
+  width: 50%;
+}
+
+// need to name each div differently
+.portfolio-about-pages div {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.portfolio-about-pages div > p {
+  width: 80%;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.portfolio-about-pages div:nth-child(1) {
+  background-color: rgb(56, 134, 89);
+}
+
+.portfolio-about-pages div:nth-child(2) {
+  background-color: rgb(129, 42, 110);
+}
+
+.portfolio-footer {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  color: white;
+}
