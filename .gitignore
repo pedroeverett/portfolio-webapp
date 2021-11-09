@@ -74,3 +74,8 @@ typings/
 
 # FuseBox cache
 .fusebox/
+
+#Ds Store
+.ds_store
+
+package-lock.json
