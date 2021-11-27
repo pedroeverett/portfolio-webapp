@@ -7,21 +7,16 @@ export class App extends React.PureComponent {
   private readonly appState = new AppState();
   public render() {
     return (
-      // <div className={'portfolio-page'}>
-      //   <NavBar />
-      //   <div className={'portfolio-page-body'}>
-      //     <div className={'hello-top'}>Welcome to</div>
-      //     <div className={'hello-bottom'}>Portfolio </div>
-      //     <div className='about-title'></div>
-      //   </div>
-      // </div>
-      <>
+      <div className={'portfolio-page'}>
         <div className='portfolio-header'>
           <h1>Wellcome to my portfolio</h1>
         </div>
         <div className='portfolio-about'>
           <div className='portfolio-about-title'>
             <h2>About me</h2>
+            <div className='portfolio-about-description'>
+              My name is Pedro Everett and I'm and Edinburgh based software developer.
+            </div>
           </div>
           <div className='portfolio-about-pages'>
             <div>
@@ -31,8 +26,7 @@ export class App extends React.PureComponent {
                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
                 irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
+                pariatur.
               </p>
             </div>
             <div>
@@ -40,16 +34,13 @@ export class App extends React.PureComponent {
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </p>
             </div>
           </div>
         </div>
         <div className='portfolio-footer'>LinkedIn Icon here</div>
-      </>
+      </div>
     );
   }
 }
