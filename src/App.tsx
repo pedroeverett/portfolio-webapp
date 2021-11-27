@@ -15,7 +15,8 @@ export class App extends React.PureComponent {
           <div className='portfolio-about-title'>
             <h2>About me</h2>
             <div className='portfolio-about-description'>
-              My name is Pedro Everett and I'm and Edinburgh based software developer.
+              My name is Pedro Everett and I'm and Edinburgh based software developer. This page
+              will be my portfolio webapp, and it will be updated with my new personal projects.
             </div>
           </div>
           <div className='portfolio-about-pages'>
